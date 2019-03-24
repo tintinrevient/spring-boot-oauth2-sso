@@ -1,0 +1,40 @@
+server:
+  address: localhost
+  port: 8082
+  servlet:
+    context-path: /
+  session:
+    cookie:
+      name: PRODUCTSESSION
+
+security:
+  basic:
+    enabled: false
+  oauth2:
+    client:
+      clientId: SampleClientId
+      clientSecret: secret
+      accessTokenUri: http://localhost:8081/auth/oauth/token
+      userAuthorizationUri: http://localhost:8081/auth/oauth/authorize
+      userLogoutUri: http://localhost:8081/auth/user/logout
+    resource:
+      userInfoUri: http://localhost:8081/auth/user/userinfo
+
+spring:
+  application:
+    name: product-service
+  thymeleaf:
+    cache: false
+
+#we tell the Eureka Client the server url
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+  # the eureka client will send heart beats every 10 seconds, default is 30 seconds
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+    preferIpAddress: true
+    ipAddress: ${server.address}
+    instanceId: ${server.address}:${server.port}

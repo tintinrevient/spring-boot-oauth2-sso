@@ -1,0 +1,8 @@
+/Users/zhaoshu/Documents/workspace/infrastructure/server/authorization-server/src/main/java/com/hncy/platform/auth/controller/UserController.java
+/Users/zhaoshu/Documents/workspace/infrastructure/server/authorization-server/src/main/java/com/hncy/platform/auth/model/UserPrincipal.java
+/Users/zhaoshu/Documents/workspace/infrastructure/server/authorization-server/src/main/java/com/hncy/platform/auth/service/UserService.java
+/Users/zhaoshu/Documents/workspace/infrastructure/server/authorization-server/src/main/java/com/hncy/platform/auth/config/AuthSecurityConfig.java
+/Users/zhaoshu/Documents/workspace/infrastructure/server/authorization-server/src/main/java/com/hncy/platform/auth/config/AuthServerConfig.java
+/Users/zhaoshu/Documents/workspace/infrastructure/server/authorization-server/src/main/java/com/hncy/platform/auth/model/User.java
+/Users/zhaoshu/Documents/workspace/infrastructure/server/authorization-server/src/main/java/com/hncy/platform/auth/AuthorizationServerApplication.java
+/Users/zhaoshu/Documents/workspace/infrastructure/server/authorization-server/src/main/java/com/hncy/platform/auth/repository/UserRepository.java

@@ -1,0 +1,8 @@
+com/hncy/platform/auth/config/AuthSecurityConfig.class
+com/hncy/platform/auth/model/User.class
+com/hncy/platform/auth/service/UserService.class
+com/hncy/platform/auth/AuthorizationServerApplication.class
+com/hncy/platform/auth/controller/UserController.class
+com/hncy/platform/auth/model/UserPrincipal.class
+com/hncy/platform/auth/config/AuthServerConfig.class
+com/hncy/platform/auth/repository/UserRepository.class

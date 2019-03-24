@@ -1,0 +1,22 @@
+server:
+  address: localhost
+  port: 8081
+  servlet:
+    contextPath: /auth
+
+spring:
+  application:
+    name: authorization-server
+
+#we tell the Eureka Client the server url
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+  # the eureka client will send heart beats every 10 seconds, default is 30 seconds
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+    preferIpAddress: true
+    ipAddress: ${server.address}
+    instanceId: ${server.address}:${server.port}
