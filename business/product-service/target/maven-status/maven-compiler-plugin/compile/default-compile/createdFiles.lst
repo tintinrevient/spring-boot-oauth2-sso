@@ -1,6 +1,0 @@
-com/hncy/service/product/model/Product.class
-com/hncy/service/product/config/ProductSecurityConfig.class
-com/hncy/service/product/ProductServiceApplication.class
-com/hncy/service/product/controller/ProductController.class
-com/hncy/service/product/config/UiWebConfig.class
-com/hncy/service/product/dao/ProductRepository.class

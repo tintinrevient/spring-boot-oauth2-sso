@@ -1,1 +1,0 @@
-INSERT INTO USER (username, fullname, password) VALUES ('test1', 'superman', 'c1f02fa50809b7f715576198eda6466cd17f63404ae6eded7c22290b025baf3868bc8f785267d4ae');

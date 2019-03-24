@@ -1,6 +1,0 @@
-com/hncy/service/review/controller/ReviewController.class
-com/hncy/service/review/dao/ReviewRepository.class
-com/hncy/service/review/config/ReviewSecurityConfig.class
-com/hncy/service/review/config/UiWebConfig.class
-com/hncy/service/review/model/Review.class
-com/hncy/service/review/ReviewServiceApplication.class
