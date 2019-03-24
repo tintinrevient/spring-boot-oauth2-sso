@@ -11,7 +11,6 @@ import com.hncy.platform.auth.repository.UserRepository;
 import com.hncy.platform.auth.model.User;
 import com.hncy.platform.auth.model.UserPrincipal;
 
-
 @Service
 public class UserService implements UserDetailsService {
 

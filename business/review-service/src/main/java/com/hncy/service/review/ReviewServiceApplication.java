@@ -5,7 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.context.request.RequestContextListener;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 
+@EnableCircuitBreaker
+@EnableEurekaClient
 @SpringBootApplication
 public class ReviewServiceApplication extends SpringBootServletInitializer {
 

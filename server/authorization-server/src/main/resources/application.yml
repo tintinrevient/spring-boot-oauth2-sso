@@ -6,7 +6,17 @@ server:
 
 spring:
   application:
-    name: authorization-server
+    name: oauth-service
+
+ribbon:
+  eureka:
+    enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream, health
 
 #we tell the Eureka Client the server url
 eureka:
