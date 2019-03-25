@@ -17,7 +17,7 @@ security:
       accessTokenUri: http://localhost:8081/auth/oauth/token
       userAuthorizationUri: http://localhost:8081/auth/oauth/authorize
       userLogoutUri: http://localhost:8081/auth/user/logout
-      userDataUri: http://oauth-service/auth/user/all
+      userDataUri: http://localhost:8081/auth/user/all
     resource:
       userInfoUri: http://localhost:8081/auth/user/userinfo
 

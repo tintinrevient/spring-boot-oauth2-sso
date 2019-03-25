@@ -14,6 +14,7 @@ import java.util.Arrays;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.http.ResponseEntity;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import org.springframework.security.oauth2.client.OAuth2RestOperations;
 
 @RestController
 @Component
@@ -25,7 +26,7 @@ public class UserController {
     private String userDataUrl;
 
     @Autowired
-    private RestTemplate restTemplate;
+    private OAuth2RestOperations restTemplate;
 
     @RequestMapping(value = "/user/all")
     @HystrixCommand(fallbackMethod = "getDefaultUsers")

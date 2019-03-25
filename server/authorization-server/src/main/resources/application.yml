@@ -8,6 +8,14 @@ spring:
   application:
     name: oauth-service
 
+security:
+  oauth2:
+    client:
+      client-id: SampleClientId
+      client-secret: secret
+      scope: read
+      auto-approve-scopes: '.*'
+
 ribbon:
   eureka:
     enabled: true

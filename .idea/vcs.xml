@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/business/oauth2-boot2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/server/demo-oauth2-login" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/server/java-spring-oidc-example" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/server/oauth2-sso-demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/server/spring-oauth-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/server/spring-resource-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/server/spring-security-oauth" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/server/uaa" vcs="Git" />
+  </component>
+</project>
